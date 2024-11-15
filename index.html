@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kotha Sai Bharath Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header id="header" class="section show">
+        <div class="container">
+            <nav>
+                <svg width="150" height="70" xmlns="http://www.w3.org/2000/svg">
+                    <text x="10" y="50" font-family="Arial" font-size="40" fill="#b54769">Bharath</text>
+                </svg>                 
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="h-text">
+                <p>Python Full Stack developer</p>
+                <h1>Hi, I'm <span>Kotha</span><br />Sai Bharath from India</h1>
+            </div>
+        </div>
+    </header>
+    <!-- About section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/IMG_5311.jpg" alt="" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I’m Kotha Sai Bharath, a passionate learner and aspiring Full Stack Developer with a strong focus on Python and Data Science. I enjoy solving complex problems and am always eager to expand my knowledge and skills in programming, particularly in Python.
+                        I have experience working with various programming concepts, including data manipulation and algorithms. I thrive on creating efficient solutions and have a keen interest in applying these skills to real-world challenges.
+                        In addition to my technical abilities, I enjoy exploring new technologies and trends in the AI field. I am currently preparing for job interviews and am excited to embark on a career that allows me to leverage my analytical skills and contribute to impactful projects.
+                        When I’m not coding, I enjoy researching the latest advancements in technology, gaming, and developing engaging projects that challenge my creativity.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>Creating User friendly Websites, which involves the visual and interactive aspects of a website or application. It combines design principles with programming languages like HTML, CSS, and JavaScript to build responsive and dynamic interfaces.</li>
+                            <li><span>Backend Development</span><br>Backend development focuses on building the server-side logic and functionality of web applications. I have been using the Python since the beginning, It involves using frameworks like Django or Flask to handle data processing, database interactions, and API integrations, ensuring seamless communication between the server and client.
+                            </li>
+                            <li><span>DBMS</span><br>A Database Management System (DBMS) utilizes SQL (Structured Query Language) to facilitate efficient data manipulation and retrieval within relational databases. By leveraging SQL commands, users can create, update, and manage data while ensuring data integrity and security.</li>
+                            <li><span>Data Science</span><br>Although I'm currently learning this still right now, Data science is an interdisciplinary field that combines statistical analysis, programming, and domain expertise to extract insights and knowledge from structured and unstructured data. It involves using tools and techniques such as machine learning, data visualization, and big data analytics to solve complex problems and inform decision-making.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web-development internship
+                            </span><br>I have successfully completed an online apprenticeship in the field of web development at SLASH MARK and SHRIPRITI EDUCATIONAL, which has been approved by AICTE.
+                            During this internship, I learned a lot about the real structure of websites, how they are built, how to make them responsive for different devices, and the distinctions between different websites. Throughout my adventure, I have enjoyed constructing those websites with much pleasure and enthusiasm. Now I can create web sites on my own with good appearance and functionality. These internships were really beneficial to me and provided me with the opportunity to choose my professional path.
+                        </li>
+                            <li><span>Programming for Everybody (Getting Started with Python)</span><br>The University of Michigan awarded me a certificate for passing the exam.
+                                There was a crash course held at my college to prepare for this exam. Throughout that journey, I learnt new things about programming languages and what they can do for humans. So we started from zero and learned the fundamentals, which allowed us to tackle several difficult questions with ease. I discovered that in any language, if you are truly proficient at the basics, you can answer the majority of the questions with little effort. This training truly helped me a lot to obtain hands-on experience on the mother of all programming languages "PYTHON"
+                            </li>
+                            <li><span>Community Service</span><br>In my academics, I conducted a community service project that increased my communication skills, problem-solving abilities, leadership, team collaboration, presentations, reports, data analysis, and insights. I learned a lot while working on that project. I can't believe I can gain so many talents in one project, and the best part is that the project's team members have become my best friends and stand out from the rest of college, and they are a true blessing to me. I really love them a lot.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology(2021-2024) - PVKK IT</span><br>I graduated from PVKK IT College with a degree in Electronics and Communication Engineering, achieving a 76% overall grade point average. Throughout my academic journey, I excelled not only in my studies but also in various extracurricular activities, showcasing my ability to balance academic rigor with active participation in campus life.</li>
+                            <li><span>Diploma(2018-2021) - SV Govt Polytechnic</span><br>I earned a diploma from SV Govt Polytechnic with a 73% overall grade point average. This foundational education equipped me with essential skills and knowledge that have been instrumental in my academic and professional pursuits.</li>
+                            <li><span>SSC(2017-2018) - Christos EM High School</span><br>I completed my schooling from Christos EM High School with a 9.8 CGPA and was the highest student in my class. This academic success demonstrates my passion to learning and striving for academic greatness.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+
+    <section id="services" class="section">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Interactive Websites</h2>
+                    <p>I offer interactive website development services using HTML, CSS, and JavaScript to create engaging and user-friendly experiences. My solutions include responsive designs, dynamic features, and seamless functionality tailored to meet your specific needs.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Programming</h2>
+                    <p>I provide backend development services using Python to create robust and efficient applications that power your website's functionality. My expertise includes building APIs, managing databases, and ensuring seamless integration to meet your specific needs.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data visualization</h2>
+                    <p>
+                        I can provide data visualization expertise using Python libraries such as Pandas and Matplotlib. With these tools, I can transform complex data into clear, insightful visual representations, making data analysis more accessible and actionable. My skills enable me to create various chart types and custom visualizations tailored to meet specific analytical needs.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/Images/Food Munch.jpg" alt="">
+                    <div class="layer">
+                        <h3>Food Munch Website</h3>
+                        <p>Creating a responsive web application for delivering food to customers.</p>
+                        <a href="https://github.com/saisai18018/My-Projects/tree/main/Food%20Munch"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Images/cloning.png" alt="">
+                    <div class="layer">
+                        <h3>Cloning Webpages</h3>
+                        <p>I have cloned some web pages to get hands-on experience on the frontend development</p>
+                        <a href="https://github.com/saisai18018/My-Projects/tree/main/cloning"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/Images/web-application.png" alt="">
+                    <div class="layer">
+                        <h3>Web Applications</h3>
+                        <p>I have created some web applications like Rock Paper Scissor game, Incrementing and Decrementing a Counter, Updating Likes and dislikes on a image etc. </p>
+                        <a href="https://github.com/saisai18018/My-Projects/tree/main/Web%20Applications"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>saimomdad99@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9390029106</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/kotha-sai-bharath-9b1a0a312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/saisai18018/saisai18018"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto: saimomdad99@gmail.com"><i class="fa-brands fa-google"></i></a>
+                        <a href="https://www.instagram.com/i.am.sai.33/profilecard/?igsh=MWV6cDZ3MHpobThvcQ=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="/Images/Resume.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> Kotha Sai Bharath.</p>
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwJlwOprmTS8b7MKYpAPCBmP2a9pWcwo8PA4QzhtJ7GczVfmQQupFNjVjFE4m31waWuvA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = 'Message sent successfully'
+                setTimeout(function(){
+                    msg.innerHTML = ''
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </body>
+</html>
